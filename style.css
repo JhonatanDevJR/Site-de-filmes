@@ -1,0 +1,42 @@
+@charset "utf-8";
+*{
+    
+    text-align: justify;
+}
+body{
+    background-color: #141414;
+    background-image: linear-gradient(to top, #0D1117 80%, #0f7aafd2);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: rgb(46, 46, 226);
+}
+
+a{
+    color: rgb(241, 240, 237);
+}
+
+p{
+    color: white;
+}
+
+div{
+    color: white;
+}
+
+header{
+    color: blue;
+    display: block;
+    font-size: 20px;
+    position: relative;
+}
+
