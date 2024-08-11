@@ -42,8 +42,9 @@ p,pre,a,h2{
 div.filme img{
     
     padding-bottom: 15px;
-    max-width: 140px;
+    max-width: 160px;
     max-height: 160px;
+    width: 100%;
     
     
 }
@@ -69,6 +70,7 @@ nav > a:hover{
 
 section h2{
     padding: 20px;
+    padding-bottom: 0%;
 }
 
 
