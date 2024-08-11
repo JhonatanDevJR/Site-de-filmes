@@ -39,15 +39,14 @@ p,pre,a,h2{
     
 }
 
-div.filme img{
+main img{
     
     padding-bottom: 7px;
     max-width: 170px;
     max-height: 190px;
     width: 100%;
-    
-    
 }
+
 
 nav{
     text-align: center;
