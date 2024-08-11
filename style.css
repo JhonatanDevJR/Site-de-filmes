@@ -42,7 +42,8 @@ p,pre,a,h2{
 div.filme img{
     
     padding-bottom: 15px;
-    max-width: 300px;
+    max-width: 160px;
+    max-height: 160px;
     
     
 }
