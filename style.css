@@ -8,6 +8,13 @@ body{
     background-image: linear-gradient(to top, #0D1117 80%, #0f7aafd2);
 }
 
+header{
+    color: rgb(217, 217, 223);
+    display: block;
+    font-size: 20px;
+    position: relative;
+}
+
 h1 {
     color: white;
     text-align: center;
@@ -23,41 +30,46 @@ h1 {
     */
 }
 
-h2{
-    color: white;
-}
-
 h3{
     color: rgb(46, 46, 226);
 }
 
-a{
-    color: rgb(241, 240, 237);
+p,pre,a,h2{
+    color: white;
+    
 }
 
-p{
-    color: white;
-}
-
-div{
-    color: white;
+div.filme img{
+    
+    padding-bottom: 15px;
+    max-width: 300px;
+    
+    
 }
 
 nav{
     text-align: center;
 }
 
+nav a{
+    padding-left: 20px;
+    
+}
+
 nav > a:hover{
     text-decoration: none;
     color: blue;
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 3px;
+    transition-duration: 1s;
 }
 
-header{
-    color: rgb(217, 217, 223);
-    display: block;
-    font-size: 20px;
-    position: relative;
+section h2{
+    padding: 20px;
 }
+
 
 footer >p{
     text-align: center;
