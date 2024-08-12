@@ -67,9 +67,18 @@ nav > a:hover{
     transition-duration: 1s;
 }
 
+section> h2:hover{
+    color: red;
+    text-decoration: none;
+    text-
+}
+
+
 section h2{
     padding: 20px;
     padding-bottom: 0%;
+    text-decoration: underline;
+    
 }
 
 
