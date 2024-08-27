@@ -114,3 +114,9 @@ footer >p{
     text-align: center;
 }
 
+input{
+    background-color:  rgb(0, 0, 0);
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+}
