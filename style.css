@@ -6,7 +6,7 @@
 body#principal{
     background-color: #141414;
     background-image: linear-gradient(to top, #0D1117 80%, #0f7aafd2);
-    /*background-image: url('midia/Jhin2.jpg');*/
+    background: url('midia/Jhin2.jpg');
 }
 
 body#FilmesBR{
