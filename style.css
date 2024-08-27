@@ -3,10 +3,20 @@
     
     
 }
-body{
+body#principal{
     background-color: #141414;
     background-image: linear-gradient(to top, #0D1117 80%, #0f7aafd2);
-    background-image: url('midia/Jhin2.jpg'); 
+    /*background-image: url('midia/Jhin2.jpg');*/
+}
+
+body#FilmesBR{
+    background-image: url('midia/br.jpg');
+}
+
+body#Favoritos{
+    background-image: url('midia/favoritos.png');
+    width: 500px;
+    height: 500px;
 }
 
 header{
