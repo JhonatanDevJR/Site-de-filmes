@@ -4,9 +4,8 @@
     
 }
 body#principal{
-    background-color: #141414;
-    background-image: linear-gradient(to top, #0D1117 80%, #0f7aafd2);
-    background: url('midia/Jhin2.jpg');
+    background-color: rgb(24, 24, 24);
+    
 }
 
 body#FilmesBR{
@@ -108,16 +107,19 @@ div.Animações{
 
 
 section> h2:hover{
-    color: red;
+    color: rgb(49, 17, 194);
     text-decoration: none;
     
 }
 
 
 section h2{
-    padding: 20px;
+    margin: 20px;
+    margin-top: 50px;
     padding-bottom: 0%;
+    margin-right: 0%;
     text-decoration: underline;
+    display: block;
     
 }
 
