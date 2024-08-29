@@ -6,19 +6,32 @@
     <title>Document</title>
     <style>
         body{
-            
-            background-image: linear-gradient(to left, green, yellow);
-            
+            /*background-image: url('midia/teemo_do_caraio-removebg-preview.png');*/
+            background-color: black;
         }
-        header{
-            background-image: url('midia/teemo_do_caraio-removebg-preview.png');
+        h1,img{
+            color: white;
+            text-align: center;
+            display: block;
+            margin: auto;
+            padding-top: 10px;
         }
         
     </style>
+    <script>
+        function LampadaQuebrada(){
+            document.getElementById("quebrou").src= "midia/lampadaquebrada.png";
+            alert("Quebrou :(");
+        }
+        function LampadaInteira(){
+            document.getElementById("quebrou").src= "midia/lampada.png";
+        }
+    </script>
 </head>
 <header></header>
 <body>
-    <h1>blablabla</h1>
+    <h1>NÃO CLIQUE NA LÂMPADA</h1>
+    <img src="midia/lampada.png" id="quebrou" onclick="LampadaQuebrada()" onmouseout="LampadaInteira()"  alt="lampada">
     
 </body>
 </html>
