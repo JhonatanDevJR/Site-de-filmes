@@ -6,11 +6,13 @@
 body#principal{
     background-color: rgb(24, 24, 24);
     
+    
 }
 
 body#FilmesBR{
-    
-    background-image: linear-gradient(to right, #238b44 25%, #f8dd2b, #18348a );
+    font-family: 'fontes/fontbr';
+    src: url('fontes/fontbr')format('truetype');
+    background-image: linear-gradient(to left, green, yellow);
 }
 
 body#Favoritos{
@@ -91,6 +93,7 @@ div.lancamentos{
     padding-top: 5px;
     box-shadow: 0px 0px 15px rgb(208, 243, 81);
     border-radius: 5px;
+    
 }
 
 div.Animações{
