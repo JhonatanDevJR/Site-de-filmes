@@ -8,10 +8,8 @@ body#principal{
 }
 
 
-body#FilmesBR{
-    font-family: 'fontes/fontbr';
-    src: url('fontes/fontbr')format('truetype');
-    background-image: linear-gradient(to left, green, yellow);
+body#Séries{
+    
 }
 
 body#Favoritos{
