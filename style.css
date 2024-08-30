@@ -118,3 +118,10 @@ section h2{
 footer >p{
     text-align: center;
 }
+
+
+li#foto01{
+    background-image: url('midia/interstelar.jpg');
+    max-width: 167px;
+    max-height: 190px;
+}
