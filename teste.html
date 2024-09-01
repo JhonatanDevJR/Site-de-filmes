@@ -6,45 +6,73 @@
     <title>Document</title>
     <style>
         body{
-            background-image: url('midia/');
             background-color: black;
-            
         }
 
-        h1,img{
+        header{
+            background-image: url('midia/guerreiro2.jpeg');
+            background-color: #979595;
+            min-width: 320px;
+            max-width: 500px;
+            min-height: 800px;
+            padding: 10px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            margin: auto;
+            margin-bottom: 30px;
+            box-shadow: 0px 0px 10px rgb(129, 129, 129);
+
+        }
+
+        
+
+        h1{
             color: rgb(255, 0, 0);
             text-align: center;
             display: block;
             margin: auto;
             padding-top: 10px;
         }
-        p{
+
+        
+        audio{
+            color: rgb(241, 13, 13);
             text-align: center;
             display: block;
             margin: auto;
-            margin-top: 10px;
         }
         
-    </style>
+        a{
+            color: white;
+            text-align: center;
+            display: block;
+            margin: auto;
+            margin-top: 700px;
+            
+        }
+</style>
     <script>
-        function LampadaQuebrada(){
+        /*function LampadaQuebrada(){
             document.getElementById("quebrou").src= "midia/lampadaquebrada.png";
             alert("😑😑😑😑");
         }
         function LampadaInteira(){
             document.getElementById("quebrou").src= "midia/teemo_do_caraio-removebg-preview.png";
-        }
+        }*/
     </script>
 </head>
-<header>
-    <h1>NÃO CLIQUE NA LÂMPADA</h1>
-    <img src="midia/lampada.png" id="quebrou" onclick="LampadaQuebrada()"   alt="lampada">
-    
-</header>
 <body>
-    <p><a href="index.html">Home</a></p>
+
+    <header>
+        <h1>DESCANSE SOLDADO</h1>
+        <img src="" id="quebrou" onclick="LampadaQuebrada()" alt="">
+        <audio src="midia/solitude.mp3" controls autoplay></audio>
+        <a href="index.html">Home</a>
+    </header>
     
     
+
 </body>
+
         
 </html>
